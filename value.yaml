@@ -17,7 +17,8 @@ deployment:
   service: ps-service
   protocol: TCP
 image:
-  repository: bmkacrphotostudio123.azurecr.io/photostudio
+  #repository: bmkacrphotostudio123.azurecr.io/photostudio
+  repository: amritha1989/photostudio
   tag: latest
 configMapRef:
   configmapname: ps-config
